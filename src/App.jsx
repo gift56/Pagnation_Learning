@@ -25,7 +25,6 @@ const App = () => {
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
   // navigate between page
-
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
