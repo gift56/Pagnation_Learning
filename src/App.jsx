@@ -7,7 +7,11 @@ const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(10);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const fetchPosts = async () => {
+      
+    };
+  }, []);
 
   return (
     <div className="container">
