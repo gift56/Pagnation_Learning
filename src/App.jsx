@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Posts from "./components/Posts";
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <div className="container mt-5">
       <h1 className="text-primary mb-3">Pagnation Learning</h1>
+      <Posts posts={posts} loading={loading} />
     </div>
   );
 };
