@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
 
-const Pagination = ({postsPerPage,totalPosts}) => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Pagination = ({ postsPerPage, totalPosts }) => {
+  const pageNumbers = [];
+  return <div></div>;
+};
 
-export default Pagination
+export default Pagination;
