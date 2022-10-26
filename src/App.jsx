@@ -21,6 +21,7 @@ const App = () => {
   // Getting current post
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
   return (
     <div className="container mt-5">
