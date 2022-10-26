@@ -19,6 +19,7 @@ const App = () => {
   }, []);
 
   // Getting current post
+  const indexOfLastPost = currentPage * postsPerPage;
 
   return (
     <div className="container mt-5">
