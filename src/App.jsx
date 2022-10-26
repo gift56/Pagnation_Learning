@@ -9,6 +9,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchPosts = async () => {
+      setLoading(true);
       
     };
   }, []);
