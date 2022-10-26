@@ -7,7 +7,7 @@ const Pagination = ({ postsPerPage, totalPosts }) => {
     pageNumbers.push(i);
   }
 
-  return <div></div>;
+  return <nav className=""></nav>;
 };
 
 export default Pagination;
