@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>My App</h1>
+      <h1 className="">Pagnation Learning</h1>
     </div>
   );
 };
