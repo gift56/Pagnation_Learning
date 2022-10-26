@@ -7,10 +7,7 @@ const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(10);
 
-
-  useEffect(()=>{
-    
-  })
+  useEffect(() => {}, []);
 
   return (
     <div className="container">
