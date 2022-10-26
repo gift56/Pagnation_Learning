@@ -1,6 +1,6 @@
-# Project Playbeats
+# Project Pagnation_Learning
 
-Develop an elegant React.js Music Application.
+Built using React.js
 
 Check out the complete project Url [here](https://playbeats.netlify.app/)
 
@@ -45,7 +45,7 @@ To set up a development environment, please follow these steps:
 1. Clone the repo
 
    ```shell
-    git clone https://github.com/gift56/Sound-Wave
+    git clone https://github.com/gift56/Pagnation_Learning
    ```
    
 2. Install the dependencies
@@ -67,14 +67,3 @@ To set up a development environment, please follow these steps:
    Project will be running in the browser.
 
    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Issues
-
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/gift56). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
-
-Please try to create bug reports that are:
-
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
