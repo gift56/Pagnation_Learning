@@ -14,6 +14,7 @@ const App = () => {
       setPosts(res.data);
       setLoading(false);
     };
+    fetchPosts();
   }, []);
 
   return (
