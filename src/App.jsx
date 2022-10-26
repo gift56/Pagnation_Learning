@@ -18,7 +18,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container mt-5">
       <h1 className="text-primary mb-3">Pagnation Learning</h1>
     </div>
   );
