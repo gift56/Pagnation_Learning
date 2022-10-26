@@ -26,7 +26,7 @@ const App = () => {
 
   // navigate between page
 
-  
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
     <div className="container mt-5">
