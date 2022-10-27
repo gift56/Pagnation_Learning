@@ -30,15 +30,18 @@ const App = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className="container mt-5">
-      <h1 className="text-info mb-3">Users Generator</h1>
-      <Posts posts={currentPosts} loading={loading} />
-      <Pagination
-        postsPerPage={postsPerPage}
-        totalPosts={posts.length}
-        paginate={paginate}
-      />
-    </div>
+    <>
+      <Header />
+      <div className="container mt-5">
+        <h1 className="text-info mb-3">Users Generator</h1>
+        <Posts posts={currentPosts} loading={loading} />
+        <Pagination
+          postsPerPage={postsPerPage}
+          totalPosts={posts.length}
+          paginate={paginate}
+        />
+      </div>
+    </>
   );
 };
 
