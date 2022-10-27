@@ -4,7 +4,7 @@ const Posts = ({ posts, loading }) => {
   if (loading) return <h2>Loading...</h2>;
 
   return (
-    <div className="row">
+    <div className="row my-4 g-4">
       {posts?.map((post, i) => (
         <div className="col-sm-6" key={i}>
           <div className="card">
@@ -18,7 +18,7 @@ const Posts = ({ posts, loading }) => {
               <p className="card-text">{post?.email}</p>
             </div>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item">{post?.location.country}</li>
+              <li className="list-group-item">Country: {post?.location.country}</li>
               <li className="list-group-item">Phone: {post?.cell}</li>
               <li className="list-group-item">Age: {post?.dob.age}</li>
             </ul>
