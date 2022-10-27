@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true);
-      const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
+      const res = await axios.get("https://randomuser.me/api/?results=100");
       setPosts(res.data);
       setLoading(false);
     };
