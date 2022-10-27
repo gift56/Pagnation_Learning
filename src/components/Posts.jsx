@@ -13,7 +13,15 @@ const Posts = ({ posts, loading }) => {
               alt={post?.name}
               className="card-img-top"
             />
-            <div className="card-body"></div>
+            <div className="card-body">
+              <h5 className="card-title"></h5>
+              <p className="card-text"></p>
+            </div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item"></li>
+              <li className="list-group-item"></li>
+              <li className="list-group-item"></li>
+            </ul>
           </div>
         </div>
       ))}
