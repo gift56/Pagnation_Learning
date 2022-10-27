@@ -6,7 +6,7 @@ const Posts = ({ posts, loading }) => {
   return (
     <div className="row my-4 g-4">
       {posts?.map((post, i) => (
-        <div className="col-sm-6 col-md-4" key={i}>
+        <div className="col-sm-6 col-lg-4 col-xl-3" key={i}>
           <div className="card">
             <img
               src={post?.picture.large}
