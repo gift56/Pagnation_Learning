@@ -5,7 +5,7 @@ import Pagination from "./components/Pagination";
 import Header from "./components/Header";
 
 const App = () => {
-  const [posts, setPosts] = useState([]);
+  const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
@@ -20,7 +20,6 @@ const App = () => {
     fetchPosts();
   }, []);
 
-  console.log(posts);
 
   // Getting current post
   const indexOfLastPost = currentPage * postsPerPage;
