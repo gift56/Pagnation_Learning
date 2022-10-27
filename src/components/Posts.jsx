@@ -1,7 +1,17 @@
 import React from "react";
 
 const Posts = ({ posts, loading }) => {
-  if (loading) return <h2>Loading...</h2>;
+  if (loading)
+    return (
+      <div className="d-flex align-items-center">
+        <strong>Loading...</strong>
+        <div
+          className="spinner-border ms-auto"
+          role="status"
+          aria-hidden="true"
+        ></div>
+      </div>
+    );
 
   return (
     <div className="row my-4 g-4">
