@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-primary mb-3">Pagnation Learning</h1>
+      <h1 className="text-info mb-3">Users Generator</h1>
       <Posts posts={currentPosts} loading={loading} />
       <Pagination
         postsPerPage={postsPerPage}
