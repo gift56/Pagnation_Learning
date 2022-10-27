@@ -20,7 +20,7 @@ const Posts = ({ posts, loading }) => {
             <ul className="list-group list-group-flush">
               <li className="list-group-item">{post?.location.country}</li>
               <li className="list-group-item">Phone: {post?.cell}</li>
-              <li className="list-group-item"></li>
+              <li className="list-group-item">Age: {post?.dob.age}</li>
             </ul>
           </div>
         </div>
