@@ -18,8 +18,8 @@ const Posts = ({ posts, loading }) => {
               <p className="card-text">{post?.email}</p>
             </div>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item"></li>
-              <li className="list-group-item"></li>
+              <li className="list-group-item">{post?.location.country}</li>
+              <li className="list-group-item">Phone: {post?.cell}</li>
               <li className="list-group-item"></li>
             </ul>
           </div>
