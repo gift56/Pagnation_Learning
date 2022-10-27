@@ -8,7 +8,7 @@ const Posts = ({ posts, loading }) => {
       {posts?.map((post, i) => (
         <div className="col-sm-6">
           <div className="card">
-            
+            <img src="" alt="" />
           </div>
         </div>
       ))}
