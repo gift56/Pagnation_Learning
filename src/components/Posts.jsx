@@ -4,7 +4,7 @@ const Posts = ({ posts, loading }) => {
   if (loading)
     return (
       <div className="d-flex align-items-center">
-        <strong>Loading...</strong>
+        <strong className="text-light">Loading...</strong>
         <div
           className="spinner-grow ms-auto text-info"
           role="status"
