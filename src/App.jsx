@@ -13,7 +13,7 @@ const App = () => {
     const fetchPosts = async () => {
       setLoading(true);
       const res = await axios.get("https://randomuser.me/api/?results=100");
-      setPosts(res.data);
+      setPosts(res.data.results);
       setLoading(false);
     };
     fetchPosts();
