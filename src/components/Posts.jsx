@@ -6,7 +6,7 @@ const Posts = ({ posts, loading }) => {
       <div className="d-flex align-items-center">
         <strong>Loading...</strong>
         <div
-          className="spinner-border ms-auto"
+          className="spinner-grow ms-auto text-info"
           role="status"
           aria-hidden="true"
         ></div>
