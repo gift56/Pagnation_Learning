@@ -14,17 +14,16 @@ const App = () => {
     const fetchPosts = async () => {
       setLoading(true);
       const res = await axios.get("https://randomuser.me/api/?results=100");
-      setPosts(res.data.results);
+      setUsers(res.data.results);
       setLoading(false);
     };
     fetchPosts();
   }, []);
 
-
   // Getting current post
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+  const currentPosts = users.slice(indexOfFirstPost, indexOfLastPost);
 
   // navigate between page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
@@ -37,7 +36,7 @@ const App = () => {
         <Posts posts={currentPosts} loading={loading} />
         <Pagination
           postsPerPage={postsPerPage}
-          totalPosts={posts.length}
+          totalPosts={users.length}
           paginate={paginate}
         />
       </div>
