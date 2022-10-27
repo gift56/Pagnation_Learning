@@ -14,8 +14,8 @@ const Posts = ({ posts, loading }) => {
               className="card-img-top"
             />
             <div className="card-body">
-              <h5 className="card-title"></h5>
-              <p className="card-text"></p>
+              <h5 className="card-title">{`${post?.name.title}. ${post?.name.first} ${post?.name.last}`}</h5>
+              <p className="card-text">{post?.email}</p>
             </div>
             <ul className="list-group list-group-flush">
               <li className="list-group-item"></li>
