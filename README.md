@@ -65,10 +65,4 @@ To set up a development environment, please follow these steps:
    npm run dev
    ```
 
-   Project will be running in the browser.
-
-<<<<<<< HEAD
-   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-=======
-   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
->>>>>>> 3e16f3a7c0e46c0c3a5a355184a12a3860b4b510
+Project will be running in the browser.
