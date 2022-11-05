@@ -64,5 +64,4 @@ To set up a development environment, please follow these steps:
    ```shell
    npm run dev
    ```
-
 Project will be running in the browser.
